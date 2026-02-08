@@ -10,5 +10,5 @@ class hello_earth(View):
     def get(self, request):
         return HttpResponse("Hello Earth")
     
-    
+     
     
