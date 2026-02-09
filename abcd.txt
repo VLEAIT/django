@@ -1,0 +1,11 @@
+pipenv shell  (strat the virtual envrironemen)
+django-admin stratproejct project_name (create a project name)
+cd .\firstproject\ (used to navigate to the project file)
+python manage.py startapp firstapp (starting new folder in app)
+
+
+MVT webframework
+M = Model model part represent how our data is being stored managed database
+V = View use interaction takes user rewuest and deals with the logic of the code 
+T =Template deals with what user actually see
+
