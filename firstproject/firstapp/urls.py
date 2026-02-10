@@ -1,7 +1,7 @@
 from django.urls import path
 from . import views
 
-urlpattern = [
+urlpatterns = [
      path('function', views.hello_world),
      path('class', views.hello_earth.as_view()),
 ]

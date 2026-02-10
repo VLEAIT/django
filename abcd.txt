@@ -9,3 +9,15 @@ M = Model model part represent how our data is being stored managed database
 V = View use interaction takes user rewuest and deals with the logic of the code 
 T =Template deals with what user actually see
 
+python manage.py runserver (to run server must have run virtual envrironemen)
+cd ..
+cd foldername
+dir
+python manage.py makemigrations
+python manage.py migrate
+
+python manage.py createsuperuser  (create a admin pannel)
+
+
+ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser (for policy change)
+
