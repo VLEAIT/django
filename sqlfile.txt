@@ -1,0 +1,25 @@
+to create a database 
+
+in my sql
+
+
+create datbase name_db;
+use name_db;
+show tables;
+
+in setting.py
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django_db',
+        'USER': 'root',
+        'PASSWORD':'+$kz2Uc6',
+        'HOST':'127.0.0.1',
+        'PORT':'3306',
+        'OPTIONS':{
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        }
+    }
+}
+
+and make migrations in manage.py and the migrate
